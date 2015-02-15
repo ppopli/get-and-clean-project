@@ -10,9 +10,9 @@ The script run_analysis.Rperforms the 5 steps described in the course project's 
 
 ### Variables
 
-1) xtrain, ytrain, xtest, ytest, subjecttrain and subjecttest contain the data from the downloaded files.
-2) xdata, ydata and subjectdata merge the previous datasets to further analysis.
-3) features contains the correct names for the xdata dataset, which are applied to the column names stored in mean_and_std, a numeric vector used to extract the desired data.
-4) A similar approach is taken with activity names through the activities variable.
-5) data merges xdata, ydata and subjectdata in a big dataset.
-6) Finally, averages_data contains the relevant averages which will be later stored in a .txt file. ddply() from the plyr package is used to apply colMeans() and ease the development.
+* xtrain, ytrain, xtest, ytest, subjecttrain and subjecttest contain the data from the downloaded files.
+* xdata, ydata and subjectdata merge the previous datasets to further analysis.
+* features contains the correct names for the xdata dataset, which are applied to the column names stored in mean_and_std, a numeric vector used to extract the desired data.
+* A similar approach is taken with activity names through the activities variable.
+* data merges xdata, ydata and subjectdata in a big dataset.
+* Finally, averages_data contains the relevant averages which will be later stored in a .txt file. ddply() from the plyr package is used to apply colMeans() and ease the development.
